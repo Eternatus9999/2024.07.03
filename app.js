@@ -25,7 +25,7 @@ function serchCuntrie(){
             population.innerText = "Population : "+obj.population;
             Text.innerHTML = `View in map :<a href="${obj.maps.googleMaps}">GoogleMap</a>/<a href="${obj.maps.openStreetMaps}">OpenStreetMaps</a>`
             img.innerHTML=`<img src="${obj.flags.png}" alt="">`
-            details.innerHTML = `For more details : <a href="https://en.wikipedia.org/wiki/${searchValue}">Details</a>`
+            details.innerHTML = `For more details : <a href="https://en.wikipedia.org/wiki/${obj.name.common}">Details</a>`
         })
         console.log(data);
 
